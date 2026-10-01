@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --test tests/*.js",
+    "test": "jest",
     "lint": "eslint src/*.js"
   },
   "keywords": [],
@@ -14,6 +14,7 @@
   "devDependencies": {
     "chromedriver": "^154.0.1",
     "eslint": "^8.57.1",
+    "jest": "^30.5.2",
     "selenium-webdriver": "^4.50.0"
   }
 }
